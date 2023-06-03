@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://3nmj1fh2skii"]
+
+[ext_resource type="Script" path="res://shop_item_list.gd" id="2_h6lqq"]
+
+[node name="ShopItemList" type="ItemList"]
+custom_minimum_size = Vector2(500, 600)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+fixed_icon_size = Vector2i(70, 70)
+script = ExtResource("2_h6lqq")
+
+[connection signal="item_selected" from="." to="." method="_on_item_selected"]

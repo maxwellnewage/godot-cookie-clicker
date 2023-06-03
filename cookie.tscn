@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkukiud6djof1"]
+
+[ext_resource type="Texture2D" uid="uid://b0q4yt6jv26mq" path="res://cookie.png" id="1_bpuon"]
+[ext_resource type="Script" path="res://cookie.gd" id="2_c5rhe"]
+
+[node name="TextureRect" type="TextureRect"]
+custom_minimum_size = Vector2(500, 500)
+offset_right = 2158.0
+offset_bottom = 2215.0
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_bpuon")
+expand_mode = 1
+script = ExtResource("2_c5rhe")
