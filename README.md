@@ -1,0 +1,2 @@
+# Clon de Cookie Clicker
+Proyecto demo para probar funcionalidades de UI de Godot. Esta versión es similar a la que fue desarrollada con Tauri, React y TypeScript. Pueden encontrarla en este [repositorio](https://github.com/maxwellnewage/tauri-clicker).
