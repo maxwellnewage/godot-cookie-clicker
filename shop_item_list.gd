@@ -46,7 +46,7 @@ var shop_list = [
 ]
 
 func _ready():
-	var icon = ResourceLoader.load("res://icon.svg")
+	var icon = ResourceLoader.load("res://granny.svg")
 	
 	for item in shop_list:
 		var name_format = "%s | Valor: %s cookies | Genera %s CpS"
@@ -56,8 +56,8 @@ func _ready():
 func _on_item_selected(index):
 	var item = shop_list[index]
 	
-	if Globals.COOKIE_COUNTER >= item["cost"]:
-		Globals.COOKIE_COUNTER -= item["cost"]
-		Globals.CPS += item["give"]
+	if Globals.cookie_counter >= item["cost"]:
+		Globals.cookie_counter -= item["cost"]
+		Globals.cookies_per_second += item["give"]
 	else:
 		print("Galletas insuficientes!")

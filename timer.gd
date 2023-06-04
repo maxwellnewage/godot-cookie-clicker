@@ -1,4 +1,4 @@
 extends Timer
 
 func _on_timeout():
-	Globals.COOKIE_COUNTER += Globals.CPS
+	Globals.cookie_counter += Globals.cookies_per_second
